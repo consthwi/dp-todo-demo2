@@ -18,7 +18,21 @@ const TextArea = styled(Grid2)(() => ({}));
 const TodoInput = styled(TextField)(() => ({
   color: "#8c7967",
   transition: "0.3s all",
-  "&:hover": { boxShadow: "salmon 0px -2px 2px inset" },
+  backgroundColor: "#ffffff11",
+  // border: "1px solid #e07368",
+  borderRadius: "5px",
+  "&:hover": { background: "#ffffff88" },
+  "& .MuiOutlinedInput-root": {
+    "& fieldset": {
+      borderColor: "#cccccc", // 기본 테두리 색상
+    },
+    "&:hover fieldset": {
+      borderColor: "#e07368", // 마우스 호버 시 테두리 색상
+    },
+    "&.Mui-focused fieldset": {
+      borderColor: "#e07368", // 포커스 시 테두리 색상
+    },
+  },
 }));
 
 const AddButton = styled(Button)(() => ({
@@ -28,8 +42,8 @@ const AddButton = styled(Button)(() => ({
   padding: "0.1rem",
   border: "none",
   boxShadow: "#e07368 1px 1px 3px",
-  color: "salmon",
-  backgroundColor: "#fff",
+  color: "#fff",
+  backgroundColor: "#e07368",
   "&:hover": { backgroundColor: "#e07368", color: "#fff" },
   "@media(max-width:900px)": { fontSize: "1rem" },
 }));
@@ -41,7 +55,7 @@ function App() {
       <TextArea container spacing={{ xs: 1, md: 2 }}>
         <Grid2 size={{ xs: 12, md: 10 }}>
           <TodoInput
-            placeholder="할 일을 적어주세요"
+            placeholder="What are you going to do today?"
             color="#8c7967"
             fullWidth
           />

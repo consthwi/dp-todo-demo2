@@ -9,12 +9,14 @@ const TodoBoardContainer = styled("div")(() => ({
   padding: "1rem 0.5rem",
   margin: "30px 0",
   position: "relative",
+  boxShadow: "#00000033 3px 3px 3px",
 }));
 
 const TodoBoardWrapper = styled("div")(() => ({
   backgroundColor: "#fff",
   borderRadius: "1rem",
   padding: "1.5rem 1rem 1.5rem 3rem",
+  boxShadow: "#00000033 3px 3px 3px",
 }));
 
 const TodoBoardSide = styled("div")(() => ({
