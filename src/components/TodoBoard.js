@@ -5,7 +5,7 @@ import boardSideImg from "../assets/board_side.png";
 
 const TodoBoardContainer = styled("div")(() => ({
   backgroundColor: "#d6a96d",
-  borderRadius: "2rem",
+  borderRadius: "1.5rem",
   padding: "1rem 0.5rem",
   margin: "30px 0",
   position: "relative",
@@ -13,8 +13,8 @@ const TodoBoardContainer = styled("div")(() => ({
 
 const TodoBoardWrapper = styled("div")(() => ({
   backgroundColor: "#fff",
-  borderRadius: "2rem",
-  padding: "2rem 1rem 2rem 3rem",
+  borderRadius: "1rem",
+  padding: "1.5rem 1rem 1.5rem 3rem",
 }));
 
 const TodoBoardSide = styled("div")(() => ({
