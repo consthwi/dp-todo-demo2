@@ -1,0 +1,5 @@
+body {
+  background: url("./assets/todo_bg.jpg") no-repeat center/cover;
+  height: 100vh;
+  color: salmon;
+}
