@@ -50,6 +50,9 @@ const TodoBoard = () => {
         <BoardSideImg src={boardSideImg} />
         <BoardSideImg src={boardSideImg} />
         <BoardSideImg src={boardSideImg} />
+        <BoardSideImg src={boardSideImg} />
+        <BoardSideImg src={boardSideImg} />
+        <BoardSideImg src={boardSideImg} />
       </TodoBoardSide>
       <TodoBoardWrapper>
         <TodoBoardTitle>Todo List</TodoBoardTitle>

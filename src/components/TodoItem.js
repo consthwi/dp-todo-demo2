@@ -65,24 +65,62 @@ const TodoTask = styled("p")(() => ({
 
 const TodoItem = () => {
   return (
-    <TodoItemContainer container spacing={2}>
-      <Grid2 size={"grow"}>
-        <TodoTask>NodeJS복습하기</TodoTask>
-      </Grid2>
-      <Grid2>
-        <ButtonWrapper>
-          <ButtonDelete variant="outlined" startIcon={<DeleteIcon />}>
-            Del
-          </ButtonDelete>
-          <ButtonDone variant="outlined" startIcon={<CheckIcon />}>
-            Done
-          </ButtonDone>
-          {/* <ButtonUndone variant="outlined" startIcon={<UndoIcon />}>
+    <>
+      <TodoItemContainer container spacing={2}>
+        <Grid2 size={"grow"}>
+          <TodoTask>NodeJS복습하기</TodoTask>
+        </Grid2>
+        <Grid2>
+          <ButtonWrapper>
+            <ButtonDelete variant="outlined" startIcon={<DeleteIcon />}>
+              Del
+            </ButtonDelete>
+            <ButtonDone variant="outlined" startIcon={<CheckIcon />}>
+              Done
+            </ButtonDone>
+            {/* <ButtonUndone variant="outlined" startIcon={<UndoIcon />}>
             Undo
           </ButtonUndone> */}
-        </ButtonWrapper>
-      </Grid2>
-    </TodoItemContainer>
+          </ButtonWrapper>
+        </Grid2>
+      </TodoItemContainer>
+      <TodoItemContainer container spacing={2}>
+        <Grid2 size={"grow"}>
+          <TodoTask>NodeJS복습하기</TodoTask>
+        </Grid2>
+        <Grid2>
+          <ButtonWrapper>
+            <ButtonDelete variant="outlined" startIcon={<DeleteIcon />}>
+              Del
+            </ButtonDelete>
+            <ButtonDone variant="outlined" startIcon={<CheckIcon />}>
+              Done
+            </ButtonDone>
+            {/* <ButtonUndone variant="outlined" startIcon={<UndoIcon />}>
+            Undo
+          </ButtonUndone> */}
+          </ButtonWrapper>
+        </Grid2>
+      </TodoItemContainer>
+      <TodoItemContainer container spacing={2}>
+        <Grid2 size={"grow"}>
+          <TodoTask>NodeJS복습하기</TodoTask>
+        </Grid2>
+        <Grid2>
+          <ButtonWrapper>
+            <ButtonDelete variant="outlined" startIcon={<DeleteIcon />}>
+              Del
+            </ButtonDelete>
+            <ButtonDone variant="outlined" startIcon={<CheckIcon />}>
+              Done
+            </ButtonDone>
+            {/* <ButtonUndone variant="outlined" startIcon={<UndoIcon />}>
+            Undo
+          </ButtonUndone> */}
+          </ButtonWrapper>
+        </Grid2>
+      </TodoItemContainer>
+    </>
   );
 };
 
